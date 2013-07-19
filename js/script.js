@@ -20,7 +20,13 @@ $(function(){
         } else {
             timeStamp = timeNow;
 
-            current += -deltaY;
+            if(deltaY < 0){
+                my_delta = -1;
+            }else{
+                my_delta = 1;
+            }
+            
+            current += -my_delta;
 
             $('#win_' + current).ScrollTo({
                 duration: 500
