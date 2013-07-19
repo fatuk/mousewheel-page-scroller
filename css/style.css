@@ -1,0 +1,19 @@
+.all-wins{
+	width: 100%;
+}
+
+.win{
+	height: 1000px;
+}
+
+#win_1{
+	background: orange;
+}
+
+#win_2{
+	background: green;
+}
+
+#win_3{
+	background: brown;
+}
